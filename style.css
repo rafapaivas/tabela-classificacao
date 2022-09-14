@@ -1,0 +1,56 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://img.freepik.com/free-vector/gradient-football-field-background_23-2149013355.jpg?w=826&t=st=1663181266~exp=1663181866~hmac=2c19a3f2af02ad8e67470e99a8301c3e15a4997be212d908cf9ef851692f1a62");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: white;
+  margin-top: 50px;
+}
+
+th {
+  border: solid 1px white;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+  height: 40px;
+  background-color: rgba(0, 50, 0, 0.2);
+}
+td:nth-child(5) {
+  font-weight: bold;
+  background-color: rgba(0, 50, 0, 0.3);
+}
+
+button {
+  font-size: 1.1rem;
+}
